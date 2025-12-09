@@ -2,6 +2,9 @@
 
 A FNOL (First Notice of Loss) assistant that ingests PDF/TXT claim documents, uses Gemini to extract structured data, validates mandatory fields, applies routing rules, and returns clear JSON for the frontend to display.
 
+## Live Demo
+🌐 **Deployed Application**: [https://insurance-ai.riswan.site/](https://insurance-ai.riswan.site/)
+
 ## Tech Stack
 - Node.js, Express, TypeScript
 - Google Gemini (Generative AI)
@@ -15,13 +18,14 @@ PDF/TXT upload → backend → AI extraction → validation → routing → JSON
 ### Backend
 1) `cd backend`
 2) `npm install`
-3) Set `GEMINI_API_KEY` in `.env`
+3) Set `GEMINI_API_KEY & PORT` in `.env`
 4) `npm run dev`
 
 ### Frontend
 1) `cd frontend`
 2) `npm install`
-3) `npm run dev`
+3) Set `VITE_API_BASE_URL=http://localhost:4000` in `.env`
+4) `npm run dev`
 
 ## API
 `POST /api/claims/process`
