@@ -15,6 +15,7 @@ export async function processClaim(
   }
 
   try {
+    console.log(req.file);
     const text = await extractTextFromFile(req.file.path);
     const extractedFields = await extractFieldsFromFnolText(text);
     const missingFields = findMissingFields(extractedFields);
