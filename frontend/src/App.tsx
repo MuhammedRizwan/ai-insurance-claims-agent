@@ -40,7 +40,7 @@ const App = () => {
               <ResultView result={result} />
             </div>
           ) : (
-            <div className="flex min-h-[320px] items-center justify-center rounded-xl border border-dashed border-neutral-800 bg-neutral-900 p-6 text-center shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
+            <div className="flex min-h-80 items-center justify-center rounded-xl border border-dashed border-neutral-800 bg-neutral-900 p-6 text-center shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
               <div className="space-y-2">
                 <p className="text-base font-semibold text-neutral-100">
                   Results will appear here
