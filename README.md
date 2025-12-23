@@ -3,7 +3,7 @@
 A FNOL (First Notice of Loss) assistant that ingests PDF/TXT claim documents, uses Gemini to extract structured data, validates mandatory fields, applies routing rules, and returns clear JSON for the frontend to display.
 
 ## Live Demo
-🌐 **Deployed Application**: [https://insurance-ai.riswan.site/](https://insurance-ai.riswan.space/)
+🌐 **Deployed Application**: [https://insurance-ai.riswan.space/](https://insurance-ai.riswan.space/)
 
 ## Tech Stack
 - Node.js, Express, TypeScript
